@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-md bg-primary-subtle">
+        <h1 class="text-primary bg-secondary-subtle titulo">Candidatos</h1>
+        <form class="bg-primary-subtle formulario">
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-2">
+                    <label for="inputState" class="form-label">Documento</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>DNI</option>
+                        <option>Pasaporte</option>
+                    </select>
+                </div>
+                <div class="col-md-2 py-2">
+                    <label for="documento" class="form-label"></label>
+                    <input type="text" class="form-control" placeholder="Nro. Documento" id="documento">
+                </div>
+                <div class="col-md-4 py-2">
+                    <label for="inputFNac" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputFNac" placeholder="Fecha de nacimiento">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputDireccion" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="inputDireccion" placeholder="Av. Medrano 162">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputProvincia" class="form-label">Provincia</label>
+                    <select id="inputProvincia" class="form-select">
+                        <option>Buenos Aires</option>
+                        <option selected>Ciudad Autónoma de Buenos Aires</option>
+                        <option>Catamarca</option>
+                        <option>Chaco</option>
+                        <option>Chubut</option>
+                        <option>Córdoba</option>
+                        <option>Corrientes</option>
+                        <option>Entre Ríos</option>
+                        <option>Formosa</option>
+                        <option>Jujuy</option>
+                        <option>La Pampa</option>
+                        <option>La Rioja</option>
+                        <option>Mendoza</option>
+                        <option>Misiones</option>
+                        <option>Neuquén</option>
+                        <option>Río Negro</option>
+                        <option>Salta</option>
+                        <option>San Juan</option>
+                        <option>San Luis</option>
+                        <option>Santa Cruz</option>
+                        <option>Santa Fe</option>
+                        <option>Santiago del Estero</option>
+                        <option>Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                        <option>Tucumán</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputEstPrim" class="form-label">Estudios Primarios</label>
+                    <select id="inputEstPrim" class="form-select">
+                        <option selected>Si</option>
+                        <option>No</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputEstSec" class="form-label">Estudios Secundarios</label>
+                    <select id="inputEstSec" class="form-select">
+                        <option selected>Si</option>
+                        <option>No</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+        </form>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
